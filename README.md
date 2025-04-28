@@ -1,5 +1,10 @@
 # 版本: UE 5.3
 
+# Github
+```
+Aurora Slim 开启Tun代理模式，才能上传
+$ git push origin main
+```
 
 # Discard 讨论组
 ```
