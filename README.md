@@ -20,3 +20,11 @@ Rules
 Pragrams
 Visualizers
 ```
+
+# 偏好设置
+```
+Edit -> Editor Perferences -> General -> Source Code -> Source Code Editor: Vistual Studio 2022
+Edit -> Editor Perferences -> General -> Live Coding -> Enable live Coding: false
+Edit -> Editor Perferences -> General -> Miscellaneous -> Hot Reload -> Automatically Compile Newly Added C++ Classes: false
+Edit -> Project Settings -> Legal Copyright Notice: 设置版权描述
+```
