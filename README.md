@@ -71,3 +71,10 @@ UPROPERTY() 是 UE5 的 反射系统宏，用于标记一个 C++ 变量，使其
 3. 支持序列化(保存到磁盘)
 https://dev.epicgames.com/documentation/zh-cn/unreal-engine/unreal-engine-uproperties?application_version=5.5
 ```
+
+# 06. Animation Blueprints
+实现：添加动画蓝图
+```
+蓝图类需要编译并保存:BP_AuraCharacter与BP_Gobin_Spear蓝图需要编译并保存，否则可能在Event Grpah中拖拽节点，并搜索Cast To BPxxx中找不到
+奇怪的是：退出后有找不到了，需要重新编译，但是在重新编译后，拖拽使用并且连上线了Try Get Pawn Owner -> Cast To BP_AuraCharacter_，那么再退出Editor后不会小时
+```
