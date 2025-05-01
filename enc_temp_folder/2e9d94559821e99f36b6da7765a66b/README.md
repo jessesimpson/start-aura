@@ -81,5 +81,4 @@ https://dev.epicgames.com/documentation/zh-cn/unreal-engine/unreal-engine-uprope
 问题：
 1. ABP_AuraCharacter中为什么Cast To BP_AuraCharacter(蓝图类), 而ABP_Enemy中Cast To AuraEnemy(C++类), why?
 2. 动画蓝图流,找人详细问ABP_xxx相关的设置,_不是很懂, why?
-3. 蓝图类与C++类有什么区别？譬如BP_AuraCharacter(Editor里面的)和AuraCharacter(Sln工程里的)_
 ```
