@@ -77,4 +77,8 @@ https://dev.epicgames.com/documentation/zh-cn/unreal-engine/unreal-engine-uprope
 ```
 蓝图类需要编译并保存:BP_AuraCharacter与BP_Gobin_Spear蓝图需要编译并保存，否则可能在Event Grpah中拖拽节点，并搜索Cast To BPxxx中找不到
 奇怪的是：退出后有找不到了，需要重新编译，但是在重新编译后，拖拽使用并且连上线了Try Get Pawn Owner -> Cast To BP_AuraCharacter_，那么再退出Editor后不会小时
+
+问题：
+1. ABP_AuraCharacter中为什么Cast To BP_AuraCharacter(蓝图类), 而ABP_Enemy中Cast To AuraEnemy(C++类), why?
+2. 动画蓝图流,找人详细问ABP_xxx相关的设置,_不是很懂, why?
 ```
