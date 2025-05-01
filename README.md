@@ -55,3 +55,19 @@ Platforms -> Windows -> Package Project
 
 或者如果有Reattach UnrealEditor选项，直接点击即可
 ```
+# 04. Player and Enemy Characters
+```
+UCLASS(Abstract)
+Abstract:           1. 不能被直接实例化的基类,通常用于定义接口或部分实现 2.不会出现在可创建类列表中
+DefaultToInstanced：1. 默认实例化。
+NotBlueprintable：  1. 禁止蓝图继承
+```
+
+# 05. Character Blueprint Setup
+```
+UPROPERTY() 是 UE5 的 反射系统宏，用于标记一个 C++ 变量，使其：
+1. 在蓝图中可访问(可选)
+2. 在UE编辑器中显示并可编辑(根据参数配置)
+3. 支持序列化(保存到磁盘)
+https://dev.epicgames.com/documentation/zh-cn/unreal-engine/unreal-engine-uproperties?application_version=5.5
+```
